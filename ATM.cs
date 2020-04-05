@@ -14,7 +14,7 @@ namespace _0504
             int number = 0;
             do
             {
-                Console.WriteLine("Pleasde enter sum fro ATM:");
+                Console.WriteLine("Please enter sum for ATM withdraw:");
             }
             while (int.TryParse(Console.ReadLine(), out number) == false);
 
